@@ -129,6 +129,13 @@
   <ItemGroup>
     <ClCompile Include="simple factory.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="coffee.h" />
+    <ClInclude Include="drink.h" />
+    <ClInclude Include="drinkFactory.h" />
+    <ClInclude Include="juice.h" />
+    <ClInclude Include="tea.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

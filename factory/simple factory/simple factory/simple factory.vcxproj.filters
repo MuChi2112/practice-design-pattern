@@ -19,4 +19,21 @@
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drink.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="coffee.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="tea.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="juice.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="drinkFactory.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
