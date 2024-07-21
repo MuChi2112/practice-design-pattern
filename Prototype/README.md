@@ -20,7 +20,7 @@
    - 使用飲料管理類的方法創建這些飲料的副本，並調用 display 方法顯示它們。
 
 ### 解釋：
-
+ 
 1. **Beverage**：基類，包含純虛函數 clone 和 `display`。
 2. **Coffee** 和 **Tea**：具體飲料類，分別實現 clone 和 display 方法。
 3. **BeverageManager**：飲料管理類，負責存儲飲料原型並創建副本。
