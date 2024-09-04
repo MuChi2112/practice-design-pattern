@@ -31,8 +31,13 @@ int main() {
     compositeOrder->removeComponent(compositeOrder2);
 
     // 顯示訂單
+
+    double tips = 0;
+
     compositeOrder->show();
-    cout << "Total Cost: $" << compositeOrder->getCost() << endl;
+    cout << "% of Tips" << endl;
+    cin >> tips;
+    cout << "Total Cost: $" << compositeOrder -> getAmount(tips) << endl;
 
     // 手動釋放記憶體
     delete compositeOrder;

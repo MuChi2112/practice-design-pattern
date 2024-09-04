@@ -40,6 +40,10 @@ public:
         return ans;
     }
 
+    double getAmount(double tips) const override {
+        return getCost() * (1 + tips / 100);
+    }
+
 private:
     vector<CoffeeComponent*> components_;
 };
